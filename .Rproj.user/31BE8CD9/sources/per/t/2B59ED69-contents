@@ -1,0 +1,14 @@
+library(roxygen2)
+
+
+#' Simple function
+#'
+#' This function returns a number.
+#'
+#' @return Numeric value.
+#' @export
+simple_function <- function() {
+  return(1)
+}
+
+devtools::document()
